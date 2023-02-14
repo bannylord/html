@@ -1,0 +1,44 @@
+body {
+
+  background-image: url(TOP.PNG);
+  background-repeat: no-repeat;
+ background-size: 100% 100vh;
+
+ 
+
+}
+
+
+.wrapper {
+  display: flex;
+ justify-content: center;
+ 
+ min-height: 100vh;
+ margin: 0;
+ padding: 0;
+
+}
+.btn {
+  font-size: 20px;
+  font-family: monospace;
+  color: orange;
+  background: linear-gradient(to left, #ee9ca7,#ffdde1,#ee9ca7);
+  text-decoration: none;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-size: 200%;
+  transition: .5s;
+  position: absolute;
+  bottom: 50px;
+  right: 350px;
+
+}
+
+.btn:hover {
+  background-position: right;
+
+}
+
+
+
+
